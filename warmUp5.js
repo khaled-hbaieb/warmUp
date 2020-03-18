@@ -21,15 +21,24 @@ function greaterNum (x, y) {
 
  function isEven(x, y) {
 var result = []
-	for (var i = x; i <= y ;i++) {
+if(x < y){	
+for (var i = x; i <= y ;i++) {
 		if ((i % 2) === 0 ) {
 			result.push(i)
-			
-		}
-		else if ((i % 2) !== 0) {
-			
-		}
-	}
+  }		
+ }
+}
+else if(x > y){	
+for (var i = y; i <= x ;i++) {
+		if ((i % 2) === 0 ) {
+			result.push(i)
+  }		
+ }
+}
+else if(x === y && (x % 2) === 0){
+	return [x]
+}
+
 	return result
 }
 //3) write a function named sum that
@@ -70,10 +79,11 @@ function sum (x, y) {
 //
 function decimals(x, y){
 var result = x
-if(x == '' || y == ''){
+if(isNaN(x) || isNaN(y)){
 	return false
 }
 else if(y === 0) {
 	return x 
-
-}
+	}
+	return parseFloat(x).toFixed(y);
+}     
