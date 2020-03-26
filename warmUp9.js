@@ -11,8 +11,11 @@ function isArray(arr) {
 }
 =======
 
+<<<<<<< HEAD
 var isArray = array => (Array.isArray(array) ? true : false);
 >>>>>>> 542e878735fb7d381c1d2089efdfe92c5a97bbd6
+=======
+>>>>>>> 61b0662bb14ae4fe1668c5e0f12461a2bba0362d
 // **************** git status ****************
 // **************** git add fileName.js ****************
 // **************** git status ****************
@@ -22,8 +25,8 @@ var isArray = array => (Array.isArray(array) ? true : false);
 
 //2-Write a JavaScript function to get the first n element of an array.
 //ex  first([1,2,3],1)=>[1]
-<<<<<<< HEAD
 //    first([1,2,3,4]2)=>[1,2]
+<<<<<<< HEAD
 var first = (arr, n) => arr.splice(0, n);
 =======
 //    first([1,2,3,4],2)=>[1,2]
@@ -40,6 +43,9 @@ function first (arr, n) {
 =======
 >>>>>>> 0e47aea7be29872390744ebf393e4da84d716048
 >>>>>>> 542e878735fb7d381c1d2089efdfe92c5a97bbd6
+=======
+
+>>>>>>> 61b0662bb14ae4fe1668c5e0f12461a2bba0362d
 
 // **************** git status ****************
 // **************** git add fileName.js ****************
